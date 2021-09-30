@@ -1,3 +1,4 @@
+function NEOCODE()
 let g:session_autosave = 'no'
 let g:NERDTreeGitStatusIndicatorMapCustom
 set guicursor=
@@ -13625,3 +13626,6 @@ if filereadable(expand("~/.vim/vimrc.after"))
 endif
 
 " vim:set et sw=4 ts=4 fdm=marker fdl=1 noma:
+
+
+endfuntion
